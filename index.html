@@ -1,0 +1,45 @@
+
+
+<html>
+
+
+<!-- This code changes the Buttons: font-size: 13px; background-color: 66ccff; font-family: courier; border-radius:(10px) -->
+<head>
+
+<style>
+
+button{font-size: 13px; background-color: 66ccff; font-family: courier;}
+body{
+background-color: b30000;
+}
+
+</style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+
+<p>
+
+<button onclick="window.location='http://bbc.co.uk'"name="button">BBC News</button>
+<button onclick="window.location='http://scratch.mit.edu'"name="button">Scratch</button>
+<button onclick="window.location='http://python.org'"name="button">Python</button>
+<button onclick="window.location='http://youtube.com'"name="button">Youtube</button>
+<button onclick="window.location='http://themlg404errorlolnobody'"name="button">Safari Can't Find The Server</button>
+<button onclick="window.location='http://dailymotion.com'"name="button">Dailymotion</button>
+<button class="download-virus" name="button">Download Virus</button>
+<button onclick="window.location='http://google.com'"name="button">Google Chrome</button>
+<button onclick="window.location='http://duckduckgo.com'"name="button">Google Chrome</button>
+
+<p>
+
+<script>
+  $('.download-virus').click(function() {
+    $(this).html('Downloaded').css('background-color', '#ccccff');
+    alert('|Downloading Fatal Virus|');
+  })
+</script>
+
+</body>
+
+</html>
